@@ -1,5 +1,3 @@
-# Swift Gists
-
 This is a continiously expanding list of GitHub Gists containing simple but useful Swift code. Nothing here realy warrents a Framework or Library but can be copied and pasted. 
 
 ## Gists
