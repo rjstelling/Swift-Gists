@@ -1,2 +1,4 @@
 # Site settings
 title: Swift Gists by Richard Stelling
+
+theme: jekyll-theme-hacker
