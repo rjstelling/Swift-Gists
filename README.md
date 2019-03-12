@@ -2,6 +2,10 @@ This is a continiously expanding list of GitHub Gists containing simple but usef
 
 ## Gists
 
+### [Standard Streams](https://github.com/rjstelling/StandardStreams.swift)
+
+A protocol based approch to writing to `Standard Out` and `Standard Error`.
+
 ### [Base Functions](https://gist.github.com/rjstelling/0216a4f9bfaec87dec44d30ac65399b1)
 
 Encode and Decode Base N with custom character sets. 
