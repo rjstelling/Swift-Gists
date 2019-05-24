@@ -18,6 +18,17 @@ Data Extension for Fowler–Noll–Vo hash function.
 
 A simple Auto Layout solution for a UIButton with 2 labels.
 
+### [Print Binary String of Integers](https://gist.github.com/rjstelling/3be83e4b5dbdb8b6278e324780938400)
+
+A generic function to print the "binary string" of any `FixedWidthInteger`.
+
+Example:
+
+```swift
+let smallNumber: UInt16 = 7
+print(asBinary: smallNumber) //output: 0b0000000000000111
+```
+
 ## Future Improvements
 
 1. Comments.
