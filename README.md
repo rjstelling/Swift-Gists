@@ -1,6 +1,8 @@
-This is a continiously expanding list of GitHub Gists containing simple but useful Swift code. Nothing here realy warrents a Framework or Library but can be copied and pasted. 
+# Swift Gists
 
-## Gists
+This is a continiously expanding list of GitHub Gists (and repos) containing simple but useful Swift code. Nothing here realy warrents a Framework or Library but can be copied and pasted.
+
+## Gists & Repositories
 
 ### [RegularExpressionValidation Property Wrapper](https://gist.github.com/rjstelling/649ff0e848af4e03f461386f4548b72d)
 
@@ -54,6 +56,7 @@ print(asBinary: smallNumber) //output: 0b0000000000000111
 ## Future Improvements
 
 1. Comments.
+2. Examples.
 
 ## Pull Requests
 
