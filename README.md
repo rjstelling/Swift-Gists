@@ -41,6 +41,15 @@ struct Example {
 
 A protocol based approch to writing to `Standard Out` and `Standard Error`.
 
+```swift
+let console = StandardOut()
+let error = StandardErr()
+
+console.print("Hello World! - This will print to stdout and can be piped or redirect to a file.")
+
+error.print("Errors are by standard printed to the console even if your redirect, useful!")
+```
+
 ### [Base Functions](https://gist.github.com/rjstelling/0216a4f9bfaec87dec44d30ac65399b1)
 
 Encode and Decode Base N with custom character sets. 
