@@ -54,6 +54,20 @@ error.print("Errors are by standard printed to the console even if your redirect
 
 Encode and Decode Base N with custom character sets. 
 
+```swift
+// Encode integer to a string
+let encodedValue = try 1973.encode() // "PZ"
+
+// Decode the string back to an integer
+let decodedValue: UInt = try encodedValue.decode() // 1973
+
+// Using a custom string
+let rosetta = "🤖❤️☠️🤓🦁🍆🧀😎🙄🤢🧠🧶🙈🙉🙊🔥🥕⚽️💊🎶🧶👏🔡"
+let emojiEncoded = try 1024.encode(rosetta.count, using: rosetta) // "❤️👏🙈"
+
+let emojiDecoded: UInt = try "❤️👏🙈".decode(UInt(rosetta.count), using: rosetta) // 1024
+```
+
 ### [Fowler–Noll–Vo Hash](https://gist.github.com/rjstelling/fc695f5c37beeefd2a810179b723b29f)
 
 Data Extension for Fowler–Noll–Vo hash function.
