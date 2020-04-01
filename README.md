@@ -39,7 +39,7 @@ struct Example {
 
 ### [Standard Streams](https://github.com/rjstelling/StandardStreams.swift)
 
-A protocol based approch to writing to `Standard Out` and `Standard Error`.
+A protocol based approach to writing to `Standard Out` and `Standard Error`.
 
 ```swift
 let console = StandardOut()
