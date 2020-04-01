@@ -72,6 +72,14 @@ let emojiDecoded: UInt = try "❤️👏🙈".decode(UInt(rosetta.count), using:
 
 Data Extension for Fowler–Noll–Vo hash function.
 
+```swift
+let data = "Hello World!".data(using: .utf8)!
+let fnvValue = data.fnv32HashString() // "12a9a41c"
+
+// Adding a single byte has a large affect on the hash
+let fnvValue2 = (data + Data(repeating: 255, count: 1)).fnv32HashString() // "7d0d58eb"
+```
+
 ### [Two Label UIButton](https://gist.github.com/rjstelling/70c4d0ad6934df99246c0f56e3494f38)
 
 A simple Auto Layout solution for a UIButton with 2 labels.
