@@ -84,6 +84,11 @@ let fnvValue2 = (data + Data(repeating: 255, count: 1)).fnv32HashString() // "7d
 
 A simple Auto Layout solution for a UIButton with 2 labels.
 
+```swift
+let tlButton = TwoLabelButton()
+tlButton.setTitles( ("Title:", "value") )
+```
+
 ### [Print Binary String of Integers](https://gist.github.com/rjstelling/3be83e4b5dbdb8b6278e324780938400)
 
 A generic function to print the "binary string" of any `FixedWidthInteger`.
