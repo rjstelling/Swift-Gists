@@ -4,6 +4,17 @@ This is a continiously expanding list of GitHub Gists (and repos) containing sim
 
 ## Gists & Repositories
 
+### [Swifty Uniform Type Identifier Extensions](https://gist.github.com/rjstelling/0e3298a42c2a2bca2f75f193578521c3)
+
+A `URL` extension to make working with [UTIs](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_intro/understand_utis_intro.html#//apple_ref/doc/uid/TP40001319-CH201-SW1) in Swift less painful.
+
+```swift
+let documentUrl = URL(fileURLWithPath: "/Volumes/MyDisk/Projects/Project1/Report.pages"
+let uti = try doumentUrl.uniformTypeIdentifier()
+
+print("\(uti)") // Pages Document
+```
+
 ### [RegularExpressionValidation Property Wrapper](https://gist.github.com/rjstelling/649ff0e848af4e03f461386f4548b72d)
 
 A `@propertyWrapper` that validates a string using a regular expression. If the string matches then it is assigned to the property if it does not then the property is net to nil. Also included is an example of validating email addresses.
