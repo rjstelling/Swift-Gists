@@ -4,6 +4,27 @@ This is a continiously expanding list of GitHub Gists (and repos) containing sim
 
 ## Gists & Repositories
 
+### [Semantic Versioning](https://gist.github.com/rjstelling/dfa3e6ac491806a63e359259a9a06dc3)
+
+A `Version` type that supports [Semantic Versioning](https://semver.org) with labels.
+
+```swift
+let version1: Version = "1.0.0"
+let version2: Version = "2.0.0"
+
+version1 == version2 // false
+version2 > version1 // true
+
+let version1point1 = "1.1"
+
+version1.isCompatible(version1point1) // true
+version2.isCompatible(version1point1) // false
+
+let version2Prerelease = "2.0-beta"
+
+version2Prerelease >= version2 //false
+```
+
 ### [Swifty Uniform Type Identifier Extensions](https://gist.github.com/rjstelling/0e3298a42c2a2bca2f75f193578521c3)
 
 A `URL` extension to make working with [UTIs](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_intro/understand_utis_intro.html#//apple_ref/doc/uid/TP40001319-CH201-SW1) in Swift less painful.
