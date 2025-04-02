@@ -4,6 +4,10 @@ This is a continiously expanding list of GitHub Gists (and repos) containing sim
 
 ## Gists & Repositories
 
+### [Creating a UIBarButtonItem That Ignores Smart Invert](https://gist.github.com/rjstelling/db5c49bf97a17ab7100233f807dd26d0)
+
+This tutorial shows how to create a custom UIBarButtonItem that ignores the Smart Invert accessibility feature (using `accessibilityIgnoresInvertColors`). It also covers why using a UIImageView as the custom view will not trigger an action, and offers a helpful example of an accessibility hint.
+
 ### [Semantic Versioning](https://gist.github.com/rjstelling/dfa3e6ac491806a63e359259a9a06dc3)
 
 A `Version` type that supports [Semantic Versioning](https://semver.org) with labels.
