@@ -4,6 +4,10 @@ This is a continiously expanding list of GitHub Gists (and repos) containing sim
 
 ## Gists & Repositories
 
+### [How to Create and Use Multiple Apple IDs for iOS Simulator Testing](https://gist.github.com/rjstelling/bd783f50416f424c6080db911080a177)
+
+Creating multiple Apple IDs for testing your app in the iOS Simulator can help isolate user experiences and troubleshoot issues effectively. Follow this easy guide to set up and successfully use multiple Apple IDs.
+
 ### [Creating a UIBarButtonItem That Ignores Smart Invert](https://gist.github.com/rjstelling/db5c49bf97a17ab7100233f807dd26d0)
 
 This tutorial shows how to create a custom UIBarButtonItem that ignores the Smart Invert accessibility feature (using `accessibilityIgnoresInvertColors`). It also covers why using a UIImageView as the custom view will not trigger an action, and offers a helpful example of an accessibility hint.
