@@ -4,6 +4,10 @@ This is a continiously expanding list of GitHub Gists (and repos) containing sim
 
 ## Gists & Repositories
 
+### [Fixing Linker Errors in Xcode (`___llvm_profile_runtime` Missing Symbol)](https://gist.github.com/rjstelling/be644d7d3061ac6e53894f2953385f3c)
+
+This tutorial explains how to resolve the linker error ___llvm_profile_runtime missing symbol in Xcode, typically occurring when code coverage settings (CLANG_COVERAGE_MAPPING) are inadvertently enabled. The issue is common when using Swift Packages like PocketSVG. It guides you through verifying the problematic setting via command-line comparison of build settings, then demonstrates the solution—deleting the auto-generated test plan in Xcode’s test plan manager. After performing this simple step and cleaning your build, the linker error should be fixed.
+
 ### [How to Create and Use Multiple Apple IDs for iOS Simulator Testing](https://gist.github.com/rjstelling/bd783f50416f424c6080db911080a177)
 
 Creating multiple Apple IDs for testing your app in the iOS Simulator can help isolate user experiences and troubleshoot issues effectively. Follow this easy guide to set up and successfully use multiple Apple IDs.
