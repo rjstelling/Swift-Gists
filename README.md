@@ -147,3 +147,7 @@ If you feel like you want to, thats cool! However, I'm not promising to be speed
 All code, including this file are covered by the MIT Licence.
 
 
+
+---
+
+[Contact](https://agent-mailbox.richardstelling.com/#contact)
